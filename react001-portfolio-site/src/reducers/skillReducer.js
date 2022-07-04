@@ -15,6 +15,7 @@ export const initialState = {
 export const skillReducer = (
   state, action
 ) => {
+  console.log(state)
   switch(action.type) {
     case actionTypes.initial: {
       return {
